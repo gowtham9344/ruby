@@ -1,4 +1,4 @@
 Visit our website: https://www.example.com , https://www.google.com , http://www.yahoo.com
 For more information, check out https://www.example.org.
 Follow us on Twitter: https://twitter.com/example
-Visit our GitHub repository: www.github.com
+Visit our GitHub repository: www.github.com , example.com
