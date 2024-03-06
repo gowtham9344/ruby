@@ -1,4 +1,33 @@
-Visit our website: https://www.example.com , https://www.google.com , http://www.yahoo.com
-For more information, check out https://www.example.org.
-Follow us on Twitter: https://twitter.com/example
-Visit our GitHub repository: www.github.com , example.com
+This is a sample text file containing various URLs.
+Here are some example URLs:
+- https://www.example.com
+- http://testsite.org
+- https://yourdomain.net/page1
+- https://sample-site.io/page123
+- http://dummylink.net
+- https://placeholder.org
+- http://sandbox.info
+- https://example-site.net
+- http://test-link.io
+
+And some additional URLs:
+- https://www.test123.org
+- http://example2.net
+- https://yourdomain.org/page2
+- https://sample-site.net/page456
+- http://sandbox.net
+- https://placeholder.io
+- http://dummylink.org
+- https://example-site.info
+- http://test-link.net
+
+A few more URLs for thorough testing:
+- https://www.example-site.org
+- http://testsite.info
+- https://yourdomain.net/page3
+- https://sample-link.io/page789
+- http://dummy-url.net
+- https://placeholder.net
+- http://sandbox.io
+- https://example-site.com
+- http://test-link.org
