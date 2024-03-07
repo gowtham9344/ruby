@@ -1,14 +1,16 @@
 This is a sample text file containing various URLs.
 Here are some example URLs:
-- https://www.example.com
-- http://testsite.org
-- https://yourdomain.net/page1
+- djkokfofkkr https://www.example.com dmdd44
+- http: http://testsite.org.ind
+
+- https://yourdomain.net/page1/ndnd/
+
 - https://sample-site.io/page123
 - http://dummylink.net
 - https://placeholder.org
 - http://sandbox.info
 - https://example-site.net
-- http://test-link.io
+- http://test-link.io 
 
 And some additional URLs:
 - https://www.test123.org
@@ -17,10 +19,10 @@ And some additional URLs:
 - https://sample-site.net/page456
 - http://sandbox.net
 - https://placeholder.io
-- http://dummylink.org
+- http://dummylink.org //https://
 - https://example-site.info
 - http://test-link.net
-
+-
 A few more URLs for thorough testing:
 - https://www.example-site.org
 - http://testsite.info
@@ -31,3 +33,21 @@ A few more URLs for thorough testing:
 - http://sandbox.io
 - https://example-site.com
 - http://test-link.org
+
+Visit our website at https://www.example.com
+Check out our blog: http://blog.example.com
+Invalid URL: ftp://invalid-url.com
+
+Website: https://www.example.com/home
+API Endpoint: https://api.example.com/v1/data
+
+Main Domain: https://example.com
+Subdomain 1: https://sub1.example.com
+Subdomain 2: http://sub2.example.com/page
+
+Visit us at http://192.168.1.1
+Server IP: https://203.0.113.42/api
+
+mons@gmail.com
+www.abd.in/page/info
+

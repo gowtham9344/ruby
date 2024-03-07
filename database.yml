@@ -1,0 +1,8 @@
+development:
+  adapter: mysql2
+  encoding: utf8
+  database: TESTDB
+  username: user1
+  password: StrongPassword!123
+  host: localhost
+  port: 3306
