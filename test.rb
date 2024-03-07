@@ -1,7 +1,18 @@
 # Function to find and print URLs in a file
 def find_and_print_urls(file_path)
   
-  pattern = %r{(https://www\.|http://www\.|https://|http://)[a-zA-Z0-9\d-]{1,}\.[a-zA-Z0-9\d-]{1,}\.[a-zA-Z0-9\d-]{1,}(\.[a-zA-Z0-9\d-]{1,})?(/[a-zA-Z0-9\d-]{1,})*|(https://www\.|http://www\.|https://|http://)[a-zA-Z\d-]{2,}(\.[a-zA-Z\d-]{2,})(\.[a-zA-Z\d-]{2,})?(/[a-zA-Z0-9\d-]{2,})*|((https://www\.|http://www\.|https://|http://)[a-zA-Z\d-]{2,}(\.[a-zA-Z\d-]{2,})(\.[a-zA-Z\d-]{2,})?)}i
+  pattern = %r{
+    (https?://(www\.)?)                 # Protocol or www
+    (
+      [a-zA-Z\d-]+(\.[a-zA-Z\d-]+)*   # Domain name with optional subdomains
+      |                               # OR
+      \d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3}  # IP address
+    )
+    (/[\w\d-]+)*                      # Optional single path
+    (\?([\w\d]*=[\w\d]*&?)*)?                   # Optional query parameters
+    (\#\w*)?                           # Optional fragment
+  }xi
+
 
   File.open(file_path, "r") do |file|
       matches = []

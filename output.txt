@@ -49,5 +49,12 @@ Visit us at http://192.168.1.1
 Server IP: https://203.0.113.42/api
 
 mons@gmail.com
-www.abd.in/page/info
+www.abd.com
 
+
+Complex URL: https://www.example.com/path/to/page?param=value&another=123#section
+
+
+Format 1: http://www.example.com
+Format 2: https://sub.example.co.uk/page?query=test&query=test1
+Format 3: ftp://ftp.example.org
